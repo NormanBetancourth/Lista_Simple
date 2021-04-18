@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Lista.h
+sstream
+-
+string
+-
+Nodo.h
+C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Nodo.h
+
+C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Nodo.h
+Persona.h
+C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Persona.h
+sstream
+-
+
+C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Persona.h
+iostream
+-
+sstream
+-
+
+C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/main.cpp
+iostream
+-
+sstream
+-
+Lista.h
+C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Lista.h
+
