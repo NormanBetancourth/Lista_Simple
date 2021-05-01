@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Lista.cpp" "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Lista.cpp.obj"
-  "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Nodo.cpp" "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Nodo.cpp.obj"
-  "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Persona.cpp" "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Persona.cpp.obj"
-  "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/main.cpp" "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/CMakeFiles/ListaSimple.dir/main.cpp.obj"
+  "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Lista.cpp.obj"
+  "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Nodo.cpp.obj"
+  "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Persona.cpp.obj"
+  "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/main.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

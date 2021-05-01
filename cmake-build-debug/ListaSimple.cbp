@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug"/>
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ListaSimple">
-				<Option output="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/ListaSimple.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug"/>
+				<Option output="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/ListaSimple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListaSimple"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListaSimple"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ListaSimple/fast">
-				<Option output="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/ListaSimple.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug"/>
+				<Option output="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/ListaSimple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,55 +55,55 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListaSimple/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListaSimple/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug"/>
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug"/>
+				<Option working_dir="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Lista.cpp">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.cpp">
 			<Option target="ListaSimple"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Lista.h">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.h">
 			<Option target="ListaSimple"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Nodo.cpp">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.cpp">
 			<Option target="ListaSimple"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Nodo.h">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.h">
 			<Option target="ListaSimple"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Persona.cpp">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.cpp">
 			<Option target="ListaSimple"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/Persona.h">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.h">
 			<Option target="ListaSimple"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/main.cpp">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/main.cpp">
 			<Option target="ListaSimple"/>
 		</Unit>
-		<Unit filename="C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/CMakeLists.txt">
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

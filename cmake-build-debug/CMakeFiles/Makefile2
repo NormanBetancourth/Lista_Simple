@@ -63,10 +63,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple"
+CMAKE_SOURCE_DIR = C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/ListaSimple.dir/clean
 CMakeFiles/ListaSimple.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target ListaSimple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target ListaSimple"
 .PHONY : CMakeFiles/ListaSimple.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ListaSimple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ListaSimple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ListaSimple.dir/rule
 
 # Convenience name for target.

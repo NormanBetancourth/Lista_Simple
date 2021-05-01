@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple
+# Install script for directory: C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/norma/source/repos/Progra II/Programacion Generica/ListaSimple/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

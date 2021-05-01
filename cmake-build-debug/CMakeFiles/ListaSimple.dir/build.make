@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple"
+CMAKE_SOURCE_DIR = C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ListaSimple.dir/depend.make
@@ -78,55 +78,55 @@ include CMakeFiles/ListaSimple.dir/flags.make
 
 CMakeFiles/ListaSimple.dir/main.cpp.obj: CMakeFiles/ListaSimple.dir/flags.make
 CMakeFiles/ListaSimple.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ListaSimple.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\main.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ListaSimple.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\main.cpp.obj -c C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\main.cpp
 
 CMakeFiles/ListaSimple.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ListaSimple.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\main.cpp" > CMakeFiles\ListaSimple.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\main.cpp > CMakeFiles\ListaSimple.dir\main.cpp.i
 
 CMakeFiles/ListaSimple.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ListaSimple.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\main.cpp" -o CMakeFiles\ListaSimple.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\main.cpp -o CMakeFiles\ListaSimple.dir\main.cpp.s
 
 CMakeFiles/ListaSimple.dir/Persona.cpp.obj: CMakeFiles/ListaSimple.dir/flags.make
 CMakeFiles/ListaSimple.dir/Persona.cpp.obj: ../Persona.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ListaSimple.dir/Persona.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\Persona.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Persona.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ListaSimple.dir/Persona.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\Persona.cpp.obj -c C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Persona.cpp
 
 CMakeFiles/ListaSimple.dir/Persona.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ListaSimple.dir/Persona.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Persona.cpp" > CMakeFiles\ListaSimple.dir\Persona.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Persona.cpp > CMakeFiles\ListaSimple.dir\Persona.cpp.i
 
 CMakeFiles/ListaSimple.dir/Persona.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ListaSimple.dir/Persona.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Persona.cpp" -o CMakeFiles\ListaSimple.dir\Persona.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Persona.cpp -o CMakeFiles\ListaSimple.dir\Persona.cpp.s
 
 CMakeFiles/ListaSimple.dir/Nodo.cpp.obj: CMakeFiles/ListaSimple.dir/flags.make
 CMakeFiles/ListaSimple.dir/Nodo.cpp.obj: ../Nodo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ListaSimple.dir/Nodo.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\Nodo.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Nodo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ListaSimple.dir/Nodo.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\Nodo.cpp.obj -c C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Nodo.cpp
 
 CMakeFiles/ListaSimple.dir/Nodo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ListaSimple.dir/Nodo.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Nodo.cpp" > CMakeFiles\ListaSimple.dir\Nodo.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Nodo.cpp > CMakeFiles\ListaSimple.dir\Nodo.cpp.i
 
 CMakeFiles/ListaSimple.dir/Nodo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ListaSimple.dir/Nodo.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Nodo.cpp" -o CMakeFiles\ListaSimple.dir\Nodo.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Nodo.cpp -o CMakeFiles\ListaSimple.dir\Nodo.cpp.s
 
 CMakeFiles/ListaSimple.dir/Lista.cpp.obj: CMakeFiles/ListaSimple.dir/flags.make
 CMakeFiles/ListaSimple.dir/Lista.cpp.obj: ../Lista.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ListaSimple.dir/Lista.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\Lista.cpp.obj -c "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Lista.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ListaSimple.dir/Lista.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ListaSimple.dir\Lista.cpp.obj -c C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Lista.cpp
 
 CMakeFiles/ListaSimple.dir/Lista.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ListaSimple.dir/Lista.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Lista.cpp" > CMakeFiles\ListaSimple.dir\Lista.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Lista.cpp > CMakeFiles\ListaSimple.dir\Lista.cpp.i
 
 CMakeFiles/ListaSimple.dir/Lista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ListaSimple.dir/Lista.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\Lista.cpp" -o CMakeFiles\ListaSimple.dir\Lista.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\Lista.cpp -o CMakeFiles\ListaSimple.dir\Lista.cpp.s
 
 # Object files for target ListaSimple
 ListaSimple_OBJECTS = \
@@ -146,7 +146,7 @@ ListaSimple.exe: CMakeFiles/ListaSimple.dir/build.make
 ListaSimple.exe: CMakeFiles/ListaSimple.dir/linklibs.rsp
 ListaSimple.exe: CMakeFiles/ListaSimple.dir/objects1.rsp
 ListaSimple.exe: CMakeFiles/ListaSimple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ListaSimple.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ListaSimple.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ListaSimple.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +159,6 @@ CMakeFiles/ListaSimple.dir/clean:
 .PHONY : CMakeFiles/ListaSimple.dir/clean
 
 CMakeFiles/ListaSimple.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple" "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple" "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug" "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug" "C:\Users\norma\source\repos\Progra II\Programacion Generica\ListaSimple\cmake-build-debug\CMakeFiles\ListaSimple.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug C:\Users\norma\OneDrive\Escritorio\Utiles\Lista_Simple\cmake-build-debug\CMakeFiles\ListaSimple.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ListaSimple.dir/depend
 
