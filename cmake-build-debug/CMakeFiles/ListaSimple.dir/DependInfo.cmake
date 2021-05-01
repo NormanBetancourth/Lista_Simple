@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Lista.cpp.obj"
   "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Nodo.cpp.obj"
+  "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nota.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Nota.cpp.obj"
   "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/Persona.cpp.obj"
   "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/main.cpp" "C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/cmake-build-debug/CMakeFiles/ListaSimple.dir/main.cpp.obj"
   )

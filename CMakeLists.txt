@@ -3,4 +3,4 @@ project(ListaSimple)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ListaSimple main.cpp Persona.cpp Persona.h Nodo.cpp Nodo.h Lista.cpp Lista.h)
+add_executable(ListaSimple main.cpp Nodo.cpp Nodo.h Lista.cpp Lista.h Persona.cpp Persona.h Tarea.cpp Tarea.h)

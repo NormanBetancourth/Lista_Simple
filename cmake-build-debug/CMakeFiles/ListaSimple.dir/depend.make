@@ -3,17 +3,18 @@
 
 CMakeFiles/ListaSimple.dir/Lista.cpp.obj: ../Lista.cpp
 CMakeFiles/ListaSimple.dir/Lista.cpp.obj: ../Lista.h
+CMakeFiles/ListaSimple.dir/Lista.cpp.obj: ../Nodo.cpp
 CMakeFiles/ListaSimple.dir/Lista.cpp.obj: ../Nodo.h
-CMakeFiles/ListaSimple.dir/Lista.cpp.obj: ../Persona.h
 
 CMakeFiles/ListaSimple.dir/Nodo.cpp.obj: ../Nodo.cpp
 CMakeFiles/ListaSimple.dir/Nodo.cpp.obj: ../Nodo.h
-CMakeFiles/ListaSimple.dir/Nodo.cpp.obj: ../Persona.h
 
 CMakeFiles/ListaSimple.dir/Persona.cpp.obj: ../Persona.cpp
 CMakeFiles/ListaSimple.dir/Persona.cpp.obj: ../Persona.h
 
+CMakeFiles/ListaSimple.dir/main.cpp.obj: ../Lista.cpp
 CMakeFiles/ListaSimple.dir/main.cpp.obj: ../Lista.h
+CMakeFiles/ListaSimple.dir/main.cpp.obj: ../Nodo.cpp
 CMakeFiles/ListaSimple.dir/main.cpp.obj: ../Nodo.h
 CMakeFiles/ListaSimple.dir/main.cpp.obj: ../Persona.h
 CMakeFiles/ListaSimple.dir/main.cpp.obj: ../main.cpp

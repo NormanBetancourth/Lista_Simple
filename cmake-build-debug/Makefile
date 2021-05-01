@@ -196,6 +196,33 @@ Nodo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nodo.cpp.s
 .PHONY : Nodo.cpp.s
 
+Nota.obj: Nota.cpp.obj
+
+.PHONY : Nota.obj
+
+# target to build an object file
+Nota.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nota.cpp.obj
+.PHONY : Nota.cpp.obj
+
+Nota.i: Nota.cpp.i
+
+.PHONY : Nota.i
+
+# target to preprocess a source file
+Nota.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nota.cpp.i
+.PHONY : Nota.cpp.i
+
+Nota.s: Nota.cpp.s
+
+.PHONY : Nota.s
+
+# target to generate assembly for a file
+Nota.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nota.cpp.s
+.PHONY : Nota.cpp.s
+
 Persona.obj: Persona.cpp.obj
 
 .PHONY : Persona.obj
@@ -265,6 +292,9 @@ help:
 	@echo ... Nodo.obj
 	@echo ... Nodo.i
 	@echo ... Nodo.s
+	@echo ... Nota.obj
+	@echo ... Nota.i
+	@echo ... Nota.s
 	@echo ... Persona.obj
 	@echo ... Persona.i
 	@echo ... Persona.s

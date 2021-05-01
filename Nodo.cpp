@@ -1,30 +1,54 @@
 //
 // Created by norma on 17/4/2021.
 //
-
 #include "Nodo.h"
+template<class T>
+Nodo<T>::Nodo(T * info, Nodo<T> * sig) {
+    this->sig = sig;
+    this->info = info;
+}
 
-Nodo::Nodo(Persona *p, Nodo * sig) {
-    this->p=p;
+template<class T>
+void Nodo<T>::setInfo(T * info) {
+    this->info = info;
+}
+
+template<class T>
+T *Nodo<T>::getInfo() {
+    return info;
+}
+
+template<class T>
+void Nodo<T>::setSig(Nodo<T> * sig) {
     this->sig=sig;
 }
 
-void Nodo::setPersona(Persona *P) {
-    p=P;
-}
-
-Persona *Nodo::getPersona() {
-    return p;
-}
-
-void Nodo::setSig(Nodo *sig) {
-    this->sig=sig;
-}
-
-Nodo *Nodo::getSig() {
+template<class T>
+Nodo<T> *Nodo<T>::getSig() {
     return sig;
 }
 
-string Nodo::toString() {
-    return p->tostring();
+template<class T>
+string Nodo<T>::toString() {
+    return getInfo()->toString();
 }
+
+template<class T>
+Nodo<T>::~Nodo() {
+    delete info;
+}
+
+template<class T>
+bool Nodo<T>::Buscado(string x) {
+    if (x == getInfo()->getId()) {
+        return true;
+    } else{
+        return false;
+    }
+}
+
+template<class T>
+string Nodo<T>::datoOrdenar() {
+    return getInfo()->getId();
+}
+

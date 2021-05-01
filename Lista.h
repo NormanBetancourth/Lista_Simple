@@ -6,26 +6,26 @@
 #define LISTASIMPLE_LISTA_H
 #include <sstream>
 #include <string>
-#include "Nodo.h"
-
+#include "Nodo.cpp"
+template<class T>
 class Lista {
 private:
-    Nodo* raiz;
-    Nodo* aux;
+    Nodo<T>* raiz;
+    Nodo<T>* aux;
 public:
     Lista();
     ~Lista();
-    void agregarIni(Persona*);
-    void agregarFinal(Persona*);
+    void agregarIni(T*);
+    void agregarFinal(T *);
     string toString();
     bool estaVacia();
     bool eliminarEspecifico(string);
-    void ordenarLista();
+    void ordenarLista();//ordena con respecto a un id
     bool eliminarIni();
     bool eliminaFinal();
     int cuentaNodos();
     bool busqueda(string);
-    Persona* acceso(string);
+    T* acceso(string);
 };
 
 #endif //LISTASIMPLE_LISTA_H

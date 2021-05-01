@@ -1,28 +1,32 @@
 //
-// Created by norma on 17/4/2021.
+// Created by norma on 1/5/2021.
 //
 
 #ifndef LISTASIMPLE_PERSONA_H
 #define LISTASIMPLE_PERSONA_H
 #include <iostream>
 #include <sstream>
+
 using namespace std;
 
 class Persona {
+
 private:
-    int id;
     string nombre;
+    string id;
+    int edad;
 public:
-    Persona(int id=0, string nombre="indef");
+    explicit Persona(string nom="Indef", string id="indef", int edad=0 );
 
-    int getid();
-    string getnombre();
+    const string &getNombre() const;
+    const string &getId() const;
+    int getEdad() const;
 
-    void setid(int);
-    void setnombre(string);
+    void setNombre(const string &nombre);
+    void setId(const string &id);
+    void setEdad(int edad);
 
-    virtual ~Persona();
-    string tostring();
+    string toString();
 };
 
 

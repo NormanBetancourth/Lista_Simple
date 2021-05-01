@@ -15,22 +15,18 @@ sstream
 -
 string
 -
-Nodo.h
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.h
+Nodo.cpp
+C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.cpp
 
 C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.cpp
 Nodo.h
 C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.h
 
 C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.h
-Persona.h
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.h
+iostream
+-
 sstream
 -
-
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.cpp
-Persona.h
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.h
 
 C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.h
 iostream
@@ -43,6 +39,8 @@ iostream
 -
 sstream
 -
-Lista.h
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.h
+Lista.cpp
+C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.cpp
+Persona.h
+C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.h
 

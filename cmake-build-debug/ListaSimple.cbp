@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.h">
 			<Option target="ListaSimple"/>
 		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nota.cpp">
+			<Option target="ListaSimple"/>
+		</Unit>
+		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nota.h">
+			<Option target="ListaSimple"/>
+		</Unit>
 		<Unit filename="C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.cpp">
 			<Option target="ListaSimple"/>
 		</Unit>

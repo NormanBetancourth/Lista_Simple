@@ -4,25 +4,28 @@
 
 #ifndef LISTASIMPLE_NODO_H
 #define LISTASIMPLE_NODO_H
-#include "Persona.h"
+#include <iostream>
 #include <sstream>
-
+using namespace std;
+template <class  T>
 class Nodo {
 private:
-    Persona *p;
-    Nodo* sig;
+    T *info;
+    Nodo<T>* sig;
 public:
-    Nodo(Persona *, Nodo*);
-
-    void setPersona(Persona*);
-    Persona* getPersona();
-    void setSig(Nodo*);
-    Nodo* getSig();
+    Nodo(T *, Nodo<T>*);
+    ~Nodo();
+    void setInfo(T*);
+    T* getInfo();
+    void setSig(Nodo<T>*);
+    Nodo<T>* getSig();
     string toString();
-
-
+    bool Buscado(string x);
+    string datoOrdenar();
 
 };
+
+
 
 
 #endif //LISTASIMPLE_NODO_H

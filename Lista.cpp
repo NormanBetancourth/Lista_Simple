@@ -3,14 +3,14 @@
 //
 
 #include "Lista.h"
-
-Lista::Lista() {
+template<class T>
+Lista<T>::Lista() {
     raiz=nullptr;
     aux=nullptr;
 }
-
-Lista::~Lista() {
-    Nodo * anterior= nullptr;
+template<class T>
+Lista<T>::~Lista() {
+    Nodo<T> * anterior= nullptr;
     if (raiz->getSig()== nullptr){
         delete raiz;
     } else{
@@ -26,12 +26,12 @@ Lista::~Lista() {
         }
     }
 }
-
-void Lista::agregarIni(Persona *P) {
-    raiz = new Nodo(P, raiz);
+template<class T>
+void Lista<T>::agregarIni(T *P) {
+    raiz = new Nodo<T>(P, raiz);
 }
-
-string Lista::toString() {
+template<class T>
+string Lista<T>::toString() {
     aux = raiz;
     stringstream s;
     while (aux != NULL) {
@@ -41,34 +41,37 @@ string Lista::toString() {
     return s.str();
 }
 
-void Lista::agregarFinal(Persona *P) {
+template<class T>
+void Lista<T>::agregarFinal(T *P) {
     aux=raiz;
     if (estaVacia()){
-        raiz =new Nodo(P, nullptr);
+        raiz =new Nodo<T>(P, nullptr);
     } else{
         while (aux->getSig()!= nullptr){
             aux =aux->getSig();
         }
-        aux->setSig(new Nodo(P, nullptr));
+        aux->setSig(new Nodo<T>(P, nullptr));
     }
 }
 
-bool Lista::estaVacia() {
+template<class T>
+bool Lista<T>::estaVacia() {
     return raiz== nullptr? true:false;
 }
 
-bool Lista::eliminarEspecifico(string nom) {
-    Nodo* anterior = nullptr;
+template<class T>
+bool Lista<T>::eliminarEspecifico(string x) {
+    Nodo<T>* anterior = nullptr;
     aux=raiz;
     if (raiz == nullptr){
         return false;
     }
-    if (raiz->getPersona()->getnombre()==nom){
+    if (raiz->Buscado(x)){
         aux =aux->getSig();
         delete raiz;
         raiz =aux;
     }
-    while (aux != nullptr and aux->getPersona()->getnombre()!= nom){
+    while (aux != nullptr and aux->Buscado(x) == false){
         anterior = aux;
         aux= aux->getSig();
     }
@@ -82,17 +85,21 @@ bool Lista::eliminarEspecifico(string nom) {
     return false;
 }
 
-void Lista::ordenarLista() {
+template<class T>
+//Compara con respecto a un int de edad,
+// se peude poner como un comparador de strings???
+void Lista<T>::ordenarLista() {
     aux =raiz;
-    Nodo *temp = nullptr;
-    Persona* P= nullptr;
+    Nodo<T> *temp = nullptr;
+    T* P= nullptr;
     while (aux->getSig()!= nullptr){
         temp = aux->getSig();
         while (temp!= nullptr){
-            if (aux->getPersona()->getid()> temp->getPersona()->getid()){
-                P = temp->getPersona();
-                temp->setPersona(aux->getPersona());
-                aux->setPersona(P);
+            if (aux->datoOrdenar() > temp->datoOrdenar()){
+                P = temp->getInfo();
+                temp->setInfo(aux->getInfo());
+                aux->setInfo(P);
+
             }
             temp=temp->getSig();
         }
@@ -100,7 +107,8 @@ void Lista::ordenarLista() {
     }
 }
 
-bool Lista::eliminarIni() {
+template<class T>
+bool Lista<T>::eliminarIni() {
     if (estaVacia()){
         return false;
     } else{
@@ -111,9 +119,10 @@ bool Lista::eliminarIni() {
     }
 }
 
-bool Lista::eliminaFinal() {
+template<class T>
+bool Lista<T>::eliminaFinal() {
     aux = raiz;
-    Nodo* anterior= nullptr;
+    Nodo<T>* anterior= nullptr;
     if (estaVacia()) {
         return false;
     }
@@ -130,7 +139,8 @@ bool Lista::eliminaFinal() {
     }
 }
 
-int Lista::cuentaNodos() {
+template<class T>
+int Lista<T>::cuentaNodos() {
     int cont = 0;
     aux = raiz;
     while (aux != nullptr) {
@@ -140,14 +150,15 @@ int Lista::cuentaNodos() {
     return cont;
 }
 
-bool Lista::busqueda(string nombre) {
+template<class T>
+bool Lista<T>::busqueda(string x) {
     aux = raiz;
     if (estaVacia()) {
         return false;
     }
     else {
         while (aux != nullptr) {
-            if (aux->getPersona()->getnombre() == nombre) {
+            if (aux->Buscado(x)) {
                 return true;
             }
             aux = aux->getSig();
@@ -156,12 +167,13 @@ bool Lista::busqueda(string nombre) {
     }
 }
 
-Persona *Lista::acceso(string nombre) {
+template<class T>
+T *Lista<T>::acceso(string x) {
     if (estaVacia()) {
         return nullptr;
     }
     else {
-        if (busqueda(nombre) != false) {
+        if (busqueda(x) != false) {
             return aux->getPersona();
         }
         return nullptr;

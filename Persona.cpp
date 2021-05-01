@@ -1,36 +1,45 @@
 //
-// Created by norma on 17/4/2021.
+// Created by norma on 1/5/2021.
 //
 
 #include "Persona.h"
 
-Persona::Persona(int id, string nombre) {
+Persona::Persona(string nom, string id, int edad) {
+    nombre=nom;
     this->id=id;
-    this->nombre=nombre;
-
+    this->edad=edad;
 }
 
-int Persona::getid() {
-    return id;
-}
-
-string Persona::getnombre() {
+const string &Persona::getNombre() const {
     return nombre;
 }
 
-void Persona::setid(int c) {
-    id=c;
+const string &Persona::getId() const {
+    return id;
 }
 
-void Persona::setnombre(string c) {
-    nombre=c;
+int Persona::getEdad() const {
+    return edad;
 }
 
-string Persona::tostring() {
-    stringstream s;
-    s<<"Nombre: "<<getnombre()<<endl;
-   s <<"Id: "<<getid()<<endl;
-   return s.str();
+void Persona::setNombre(const string &nombre) {
+    Persona::nombre = nombre;
 }
 
-Persona::~Persona() {}
+void Persona::setId(const string &id) {
+    Persona::id = id;
+}
+
+void Persona::setEdad(int edad) {
+    Persona::edad = edad;
+}
+
+string Persona::toString() {
+    stringstream  s;
+    s<<"\t\nPersona";
+    s<<"\t\nNombre: "<<getNombre();
+    s<<"\t\nID: "<<getId();
+    s<<"\t\nEdad: "<<getEdad();
+
+    return s.str();
+}
