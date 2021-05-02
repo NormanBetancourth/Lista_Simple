@@ -6,6 +6,7 @@
 #define LISTASIMPLE_LISTA_H
 #include <sstream>
 #include <string>
+#include <fstream>
 #include "Nodo.cpp"
 template<class T>
 class Lista {
@@ -26,6 +27,9 @@ public:
     int cuentaNodos();
     bool busqueda(string);
     T* acceso(string);
+    void guardar();
+    static Lista<T>* Leer();
+
 };
 
 #endif //LISTASIMPLE_LISTA_H

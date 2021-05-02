@@ -4,10 +4,11 @@
 
 #include "Persona.h"
 
-Persona::Persona(string nom, string id, int edad) {
+Persona::Persona(string nom, string id, int edad,Tarea* tarea ) {
     nombre=nom;
     this->id=id;
     this->edad=edad;
+    this->tarea=tarea;
 }
 
 const string &Persona::getNombre() const {
@@ -36,10 +37,39 @@ void Persona::setEdad(int edad) {
 
 string Persona::toString() {
     stringstream  s;
-    s<<"\t\nPersona";
+    s<<"\nPersona";
     s<<"\t\nNombre: "<<getNombre();
     s<<"\t\nID: "<<getId();
     s<<"\t\nEdad: "<<getEdad();
+    if (tarea){
+        s<<"\nTareas: "<<getTarea()->toString();
+    }
 
     return s.str();
+}
+
+Tarea *Persona::getTarea() {
+    return tarea;
+}
+
+void Persona::setTarea(Tarea *x) {
+    tarea=x;
+}
+
+void Persona::guardar(ofstream& c) {
+    c << getNombre() << endl
+      << getId() << endl
+      << getEdad() << endl;
+    tarea->guardar();
+}
+
+Persona * Persona::leer(ifstream& estFile) {
+    string nom, Id, edad;
+
+    if (!(estFile>>nom)) { return nullptr; }
+    if (!(estFile>>Id)) { return nullptr; }
+    if (!(estFile>>edad)) { return nullptr; }
+
+    return new Persona(nom,Id,stoi(edad),Tarea::leer(Id));
+
 }

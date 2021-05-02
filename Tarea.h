@@ -6,6 +6,7 @@
 #define LISTASIMPLE_TAREA_H
 #include <iostream>
 #include <sstream>
+#include <fstream>
 
 using namespace std;
 class Tarea {
@@ -20,7 +21,8 @@ public:
 
     void setId(const string &id);
     void setDetalles(const string &detalles);
-
+    void guardar();
+    static Tarea* leer(string x);
     string toString();
 };
 

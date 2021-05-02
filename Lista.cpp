@@ -179,3 +179,36 @@ T *Lista<T>::acceso(string x) {
         return nullptr;
     }
 }
+
+template<class T>
+void Lista<T>::guardar() {
+    aux = raiz;
+    ofstream c;
+    c.open("Clientes.txt", ios::out);
+
+    while (aux != NULL) {
+        aux->guardar(c);
+        aux = aux->getSig();
+    }
+    c.close();
+
+}
+
+template<class T>
+Lista<T> *Lista<T>::Leer() {
+    ifstream c;
+    c.open("Clientes.txt", ios::in);
+    Lista<T>* L = new Lista<T>();
+    T* C = NULL;
+    while (c.good())
+    {
+        C = T::leer(c);
+        if (C != NULL)
+        {
+
+            L->agregarFinal(C);
+        }
+    }
+    c.close();
+    return L;
+}

@@ -196,33 +196,6 @@ Nodo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nodo.cpp.s
 .PHONY : Nodo.cpp.s
 
-Nota.obj: Nota.cpp.obj
-
-.PHONY : Nota.obj
-
-# target to build an object file
-Nota.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nota.cpp.obj
-.PHONY : Nota.cpp.obj
-
-Nota.i: Nota.cpp.i
-
-.PHONY : Nota.i
-
-# target to preprocess a source file
-Nota.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nota.cpp.i
-.PHONY : Nota.cpp.i
-
-Nota.s: Nota.cpp.s
-
-.PHONY : Nota.s
-
-# target to generate assembly for a file
-Nota.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Nota.cpp.s
-.PHONY : Nota.cpp.s
-
 Persona.obj: Persona.cpp.obj
 
 .PHONY : Persona.obj
@@ -249,6 +222,60 @@ Persona.s: Persona.cpp.s
 Persona.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Persona.cpp.s
 .PHONY : Persona.cpp.s
+
+Tarea.obj: Tarea.cpp.obj
+
+.PHONY : Tarea.obj
+
+# target to build an object file
+Tarea.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Tarea.cpp.obj
+.PHONY : Tarea.cpp.obj
+
+Tarea.i: Tarea.cpp.i
+
+.PHONY : Tarea.i
+
+# target to preprocess a source file
+Tarea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Tarea.cpp.i
+.PHONY : Tarea.cpp.i
+
+Tarea.s: Tarea.cpp.s
+
+.PHONY : Tarea.s
+
+# target to generate assembly for a file
+Tarea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Tarea.cpp.s
+.PHONY : Tarea.cpp.s
+
+Vector.obj: Vector.cpp.obj
+
+.PHONY : Vector.obj
+
+# target to build an object file
+Vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Vector.cpp.obj
+.PHONY : Vector.cpp.obj
+
+Vector.i: Vector.cpp.i
+
+.PHONY : Vector.i
+
+# target to preprocess a source file
+Vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Vector.cpp.i
+.PHONY : Vector.cpp.i
+
+Vector.s: Vector.cpp.s
+
+.PHONY : Vector.s
+
+# target to generate assembly for a file
+Vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListaSimple.dir\build.make CMakeFiles/ListaSimple.dir/Vector.cpp.s
+.PHONY : Vector.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -292,12 +319,15 @@ help:
 	@echo ... Nodo.obj
 	@echo ... Nodo.i
 	@echo ... Nodo.s
-	@echo ... Nota.obj
-	@echo ... Nota.i
-	@echo ... Nota.s
 	@echo ... Persona.obj
 	@echo ... Persona.i
 	@echo ... Persona.s
+	@echo ... Tarea.obj
+	@echo ... Tarea.i
+	@echo ... Tarea.s
+	@echo ... Vector.obj
+	@echo ... Vector.i
+	@echo ... Vector.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -6,41 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.cpp
-Lista.h
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.h
+C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Tarea.cpp
+Tarea.h
+C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Tarea.h
 
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.h
-sstream
--
-string
--
-Nodo.cpp
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.cpp
-
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.cpp
-Nodo.h
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.h
-
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Nodo.h
+C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Tarea.h
 iostream
 -
 sstream
 -
-
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.h
-iostream
+fstream
 -
-sstream
--
-
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/main.cpp
-iostream
--
-sstream
--
-Lista.cpp
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Lista.cpp
-Persona.h
-C:/Users/norma/OneDrive/Escritorio/Utiles/Lista_Simple/Persona.h
 

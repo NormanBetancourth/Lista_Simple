@@ -22,6 +22,7 @@ public:
     string toString();
     bool Buscado(string x);
     string datoOrdenar();
+    void guardar(ofstream&);
 
 };
 

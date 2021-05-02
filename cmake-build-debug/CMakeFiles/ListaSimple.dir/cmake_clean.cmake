@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ListaSimple.dir/Lista.cpp.obj"
   "CMakeFiles/ListaSimple.dir/Nodo.cpp.obj"
-  "CMakeFiles/ListaSimple.dir/Nota.cpp.obj"
   "CMakeFiles/ListaSimple.dir/Persona.cpp.obj"
+  "CMakeFiles/ListaSimple.dir/Tarea.cpp.obj"
+  "CMakeFiles/ListaSimple.dir/Vector.cpp.obj"
   "CMakeFiles/ListaSimple.dir/main.cpp.obj"
   "ListaSimple.exe"
   "ListaSimple.exe.manifest"

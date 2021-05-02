@@ -52,3 +52,8 @@ string Nodo<T>::datoOrdenar() {
     return getInfo()->getId();
 }
 
+template<class T>
+void Nodo<T>::guardar(ofstream & c) {
+    getInfo()->guardar(c);
+}
+
